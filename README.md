@@ -14,13 +14,15 @@
 - ⚙️ Komut çalıştırma formu (Terminal)
 - 🔑 Keylogger (deneysel)
 - ⏻ Uzaktan yeniden başlatma ve kapatma komutları
-
+- Not:hexstorm aracı bu araç ile bağdaşmış bir araçdır onun kodu da bana aittir lütfen o araç için pentest deposuna gidiniz
 ## 🛠️ Kurulum
 
 ### Gerekli kütüphaneler
+
+
 
 ```bash
 pip install -r requirements.txt
 
 
-Not:hexstorm aracı bu araç ile bağdaşmış bir araçdır onun kodu da bana aittir lütfen o araç için pentest deposuna gidiniz
+
