@@ -4,3 +4,4 @@ psutil
 pyautogui
 numpy
 requests
+pyinstaller
