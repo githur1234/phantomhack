@@ -1,0 +1,6 @@
+flask
+opencv-python
+psutil
+pyautogui
+numpy
+requests
