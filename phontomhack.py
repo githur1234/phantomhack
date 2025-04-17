@@ -32,7 +32,7 @@ input_choice = input(f"{os.getlogin()}@phantomhack>> ")
 if input_choice == "1":
     nm=input("payload name: ")
     with open(f"{nm}.py","w") as payload:
-        payload.write('''
+        payload.write(r'''
 from flask import Flask, Response, request
 import cv2
 import psutil
