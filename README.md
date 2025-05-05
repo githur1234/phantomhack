@@ -1,2 +1,2 @@
 # phantomhack
-this reapo only used branch
+this repo only used branch
